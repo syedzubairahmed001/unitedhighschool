@@ -1,0 +1,153 @@
+*{
+    margin 0;
+    padding 0;
+    box-sizing: border-box;
+    
+}
+.row{
+    margin: 0 auto;
+    max-width: 1140px;
+   
+}
+html{
+    font-family: 'Lato','Arial',sans-serif;
+    color: #555;
+    background-color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+/* -----------------------------*/
+/* ------ header----*/
+h1{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 230%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    margin: 0 15%;
+    text-align: center;
+}
+.hero-text-box{
+    background-image: linear-gradient(to right , rgba(9, 132, 227, 0.81),rgba(6, 54, 92, 0.8)),url(img/admission-section-header.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    height: 100%;
+    padding: 50px 30px 177px 30px;
+    
+    
+    
+}
+
+.sec {
+    
+    padding: 3%;
+    margin: 40px 5px 20px 5px;
+    background-color: rgba(5, 75, 129, 0.69);
+    transition: 0.5s box-shadow;
+}
+.section-admissions{
+    margin-top: 70px;
+    
+}
+
+.section-admissions span h2{
+    color: #fff;
+    font-weight: 300;
+    font-size: 150%;
+    text-align: center;
+    margin: 0;
+}
+.section-admissions span p{
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+}
+
+.section-admissions span a{
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    margin: 0 34%;
+    transition: border-color 0.5s,
+                background-color 0.5s;
+    
+   
+}
+
+.sec:hover{
+    box-shadow: 1px 1px 100px #000;
+}
+.section-admissions span a:hover{
+    border-color: #0984e3;
+    background-color: #0984e3;
+    
+}
+.section-home{
+    margin: 60px 0;
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.home-btn{
+    text-decoration:none;
+    color:#fff;
+    border: 1px solid #fff;
+    padding: 10px 40px;
+    transition: border-color 0.5s,
+                background-color 0.5s;
+                
+}
+.home-btn:hover{
+    border-color: #0984e3;
+    background-color: #0984e3;
+   
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .section-home{
+    margin: 60px auto;
+    height: auto;
+    width: auto;
+    }
+    .home-btn{
+    text-decoration:none;
+    color:#fff;
+    border: 1px solid #fff;
+    padding: 10px 40px;
+    
+    }
+
+h1{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 180%;
+    letter-spacing: 0px;
+    word-spacing: 3px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin: 0 15%;
+    text-align: center;
+}
+
+}
+
+
+
+

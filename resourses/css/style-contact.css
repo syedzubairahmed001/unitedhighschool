@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato','Arial',sans-serif;
+    color: #555;
+    background-color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+
+.row{
+    margin: 0 auto;
+    max-width: 1140px;
+    
+}
+.contact-section{
+    margin-top:90px;
+    position: relative;
+}
+.contact-section:hover::before{
+    width: 420px;
+    height: 30px;
+    text-align: center;
+    background-color: #0984e3;
+    position: absolute;
+    content: 'to book seat or apply for job, please contact';
+    color: #fff;
+    top: -35px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px #ccc;
+}
+h1{
+    color:#fff;
+    background-color: #0984e3;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+.contact-row{
+    
+    width:300px;
+    margin: 30px auto;
+    
+}
+i.icon{
+    float: left;
+    font-size: 150%;
+    color: #fff;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #0984e3;
+    position: absolute;
+    border-radius: 50px;
+    padding: 7px 14px;
+    transition: 0.5s;
+    
+}
+p{
+    float: left;
+    margin-left: 80px;
+    font-size: 100%;
+    padding: 7px 15px;
+}
+
+
+
+.contact-main{
+    transition: 0.5s;
+    border-radius: 50px;
+}
+
+
+.contact-row:hover .icon,
+.contact-row:hover .contact-main{
+    background-color: #fff;
+    color: #0984e3;
+    border: 1px solid #0984e3;
+    border-radius: 50px;
+}
+.map-a:link,
+.map-a:visited{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0984e3;
+    padding: 10px 20px;
+    font-size: 60px;
+    border: 1px transparent;
+    border-radius: 50px;
+    display: block;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    height: 100px;
+    transition: 0.5s border, 0.5s color, 0.5s background-color ;
+   margin-top: 70px
+  
+}
+.map-a::after{
+    content: 'get directions';
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.map-a:hover,
+.map-a:focus{
+    color: #0984e3;
+    background-color: #fff;
+    border: 1px solid #0984e3;
+    
+}
+
+
+
+

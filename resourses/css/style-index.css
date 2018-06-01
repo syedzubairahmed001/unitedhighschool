@@ -1,0 +1,419 @@
+/* color-basic blue:#0984e3
+color-dark blue: #054b81*/
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato','Arial',sans-serif;
+    color: #555;
+    background-color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+.clearfix{
+    zoom:1;
+}
+.clearfix:after{
+    content: '.';
+    clear:both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.row{
+    margin: 0 auto;
+    max-width: 1140px;
+    
+}
+
+/* reusable components*/
+
+/*........................................*/
+/*  hero buttons */
+/*........................................*/
+
+
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+section{
+    padding: 80px 0;
+}
+
+.box{
+    padding: 1%;
+    text-align: justify
+}
+/*---------- headings-------------*/
+
+
+
+
+h1,
+h2{
+    
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+h1{
+    margin-top: 0;
+    color: #fff;
+    font-size: 230%;
+    margin-top: 0;
+    color: #fff;
+    
+    
+}
+h2{
+    font-size: 200%;
+    word-spacing:2px;
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: 300;
+}
+h2:after{
+    display: block;
+    height: 2px;
+    width:180px;
+    background-color:#0984e3;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 20px;
+}
+h3{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 10px 0;
+    font-size: 140%;
+    font-weight: 300;
+}
+.hero-text-box{
+    position: absolute;
+    width: 100%;
+    padding-left:10px; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+    
+.btn{
+    display: inline-block;
+    padding: 10px 30px ;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 100px;
+    transition: 0.6s;
+}
+
+.btn-career:link,
+.btn-career:visited{
+    background-color: #0984e3;
+    border: solid 1px #0984e3;
+    margin-right: 20px;
+    color: #fff;
+}
+.btn-more:link,
+.btn-more:visited{
+    border: solid 1px #0984e3;
+    color: #0984e3;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #054b81;
+    border-color: #054b81;
+}
+
+/* ------------------    paras ------------     */
+
+.long-copy{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+.box p{
+    line-height: 140%;
+    font-size:90% ;
+    text-align: center;
+    
+}
+/* ------------------   icons ------------     */
+.icon-big{
+    font-size: 70px;
+    color: #0984e3;
+    padding: 0 40%;
+    
+    
+    display: block;
+}
+
+/*......................................*/
+/*     navigation       */
+/*......................................*/
+.logo{
+    height:70px;
+    border-radius: 100%;
+    float:left;
+    margin-top: 20px;
+    
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 15px;
+    transition: 0.4s ;
+}
+.main-nav li a:hover,
+.main-nav li a:active{ 
+    border-bottom: 3px solid #0984e3;
+    color: #adadad;
+    
+}
+/*--------------------------- image gallery-------*/
+.section-gallery{
+    padding: 0;
+}
+.show-case{
+    list-style: none;
+    width: 100%;
+}
+.show-case li{
+    display: block;
+    float:left;
+    width: 25%;
+    margin: 0;
+    
+}
+.gallery-pic{
+    width: 100%;
+    margin: 0;
+    overflow:hidden;
+    background-color: #000;
+}
+.gallery-pic img{
+    width: 100%;
+    height: auto;
+    transform: scale(1.20);
+    transition: 0.5s;
+    opacity: 0.5;
+}
+.gallery-pic img:hover{
+    transform: scale(1.03);
+    opacity: 1;
+}
+/* ------------------------------------*/
+/* steps section 1,2,3*/
+/* -----------------------*/
+
+.section-goals{
+    background-color: #f4f4f4;
+}
+.goals-box:first-child{
+    text-align: left;
+    padding-right: 3%;
+    margin-top: 80px;
+    
+}
+.goals-box:last-child{
+    padding-left: 10%;
+    margin-top: 10px;
+    
+}
+.teacher-pic{
+    width: 50%;
+}
+.steps{
+    margin-bottom: 50px;
+}
+.steps div{
+    color:#0984e3;
+    border: 2px solid #0984e3 ;
+    display: inline-block;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 150%;
+    padding: 3px;
+    float: left;
+    margin-right: 25px;
+}
+.steps:hover .num-goals{
+    background-color:#0984e3 ;
+    color: #fff;
+}
+/*------------------------------branches-------*/
+.box img{
+    width: 100%;
+    height: auto;
+}
+.branch-feature{
+    margin-bottom: 5px;
+    
+}
+.branch-feature a:visited,
+.branch-feature a:link{
+    text-decoration: none;
+    color: #0984e3; 
+}
+.branch-feature a:hover,
+.branch-feature a:active{
+    text-decoration: underline;
+    
+}
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #0984e3;
+    font-size: 130%;
+    margin-right: 10px;
+}
+
+.menu{
+        
+    opacity: 0;    
+    position: absolute;        
+}
+.section-footer{
+    width: 100%;
+    height: 240px;
+    background-color: #333;
+    
+}
+footer{
+    position: relative;
+}
+.footer-li li a{
+    text-decoration: none;
+    color: #999;
+   
+}
+.footer-li li a:hover,
+.footer-li li a:active{
+    color: #bbb;
+   
+}
+.footer-li li{
+     margin-bottom: 20px;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.copyright{
+    display: block;
+    margin: 0 auto;
+}
+.copyright-p{
+    color: #999;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.contact-info-footer{
+    margin-left: 130px;
+    color:#999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px){
+    
+    
+    .hero-text-box{
+        position: absolute;
+        width: 100%;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    h1{
+        font-size: 130%;
+        margin: 0 auto;
+        letter-spacing: 0;
+        word-spacing: 1px;
+    }
+    .btn{
+        padding: 6px 15px;
+        font-size: 80%;
+        margin-top: 20px;
+    }
+    header{
+        height: 50vh;
+    }
+    .main-nav{
+        display:none;
+    }
+    .menu{
+        opacity: 1;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+    .logo{
+        width: 50px;
+        height:auto;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        margin: 0;
+    }
+    .menu i{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 150%;
+    } 
+    .teacher-pic{
+        display: none;
+    }
+    .steps{
+        margin-left: 20px
+    }
+}
+    
+
+
+
+

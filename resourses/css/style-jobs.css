@@ -1,0 +1,132 @@
+*{
+    margin 0;
+    padding 0;
+    box-sizing: border-box;
+    
+}
+.row{
+    margin: 0 auto;
+    max-width: 1140px;
+   
+}
+html{
+    font-family: 'Lato','Arial',sans-serif;
+    color: #555;
+    background-color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+/* -----------------------------*/
+/* ------ header----*/
+h1{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 230%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    margin: 0 15%;
+    text-align: center;
+}
+.hero-text-box{
+    background-color: #666;
+    padding: 20px 30px;
+    margin-bottom: 40px;
+}
+/* ----------------------------------*/
+/* --------- job section------------*/
+.job-breif p{
+    text-align: center;
+    padding: 10px;
+}
+.icon-job{
+    font-size: 270%;
+    padding: 0 40%;
+    color: #0984e3;
+}
+
+
+.job-breif a{
+    text-decoration: none;
+    color: #0984e3;
+    padding: 6px 20%;
+    border: 1px solid #0984e3;
+    border-radius: 2px;
+    font-weight: 300;
+    transition: 0.5s;
+    margin: 0 15%;
+    text-transform: capitalize;
+}
+.job-breif a:hover,
+.job-breif a:active{
+    background-color: #0984e3;
+    color: #fff;
+}
+
+.job-breif{
+    padding: 5% 0;
+}
+
+.back-to-home{
+    
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(img/jobs-section-lower.jpg);
+    background-position:center;
+    background-size: cover;
+}
+.back-to-home a{
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    border: 2px solid #fff;
+    font-size: 200%;
+    text-transform: uppercase;
+    padding: 10px 50px;
+    margin: 10% 27%;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.back-to-home a:hover,
+.back-to-home a:active{
+    
+    color: #555;
+    background-color: #fff;
+}
+
+@media only screen and (max-width:600px){
+    h1{
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 100%;
+        letter-spacing: 0;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .back-to-home{
+    
+        height: 21vh;
+        position: relative;
+    }
+    .back-to-home a{
+        font-size:100%;
+        padding: 10px 15px;
+        margin: 0 auto;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+    .job-breif p{
+        font-size: 90%;
+        padding: 0 20px;
+        
+    }
+}
+
+

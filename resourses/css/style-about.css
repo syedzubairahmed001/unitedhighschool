@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato','Arial',sans-serif;
+    color: #555;
+    
+    font-weight: 300;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+.about-container{
+     background-image: linear-gradient( to bottom right ,#0984e3,#054b81);
+    height: 89.9vh;
+}
+.row{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+h1{
+    margin: 0;
+    color: #0984e3;
+    background-color:#fafafa; 
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 0 10px #000;
+}
+.logo{
+    width: 100px;
+    border-radius: 50px;
+    margin: 30px auto;
+    display: block;
+    border: 3px solid #ddd;
+    box-shadow: 0.5px 0.5px 50px #000;
+}
+.description-p{
+  color: #fafafa;
+  text-align: center;
+    
+}
+.dev-btn{
+    text-decoration: none;
+    color: #054b81;
+    background-color: #f0f0f0;
+    display: block;;
+    margin: 50px auto;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    padding: 10px 0;
+    font-size: 25px;
+    border-radius: 5px;
+    transition: 0.5s background-color, color 0.5s;
+    text-transform: capitalize;
+}
+.dev-btn:hover{
+    color: #fff;
+    background-color: #063458;
+}
+.links-2{
+    
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.contact-btn:link,
+.contact-btn:visited,
+.home-btn:link,
+.home-btn:visited{
+    text-decoration: none;
+    color: #fff;
+    background-color:#0984e3;
+    box-shadow: 1px 1px 5px #000;
+    margin-right: 20px;
+    padding: 5px 40px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 6px;
+    transition: color 0.5s, background-color 0.5s;
+}
+.contact-btn:hover,
+.contact-btn:active,
+.home-btn:hover,
+.home-btn:active{
+    color: #fff;
+    background-color: #063458;
+}
+
+
+
+
+
+
